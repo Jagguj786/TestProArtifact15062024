@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllSuite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+		<class name="com.mystore.testcases.IndexPageTestxml"/>
+		<class name="com.mystore.testcases.HomepageTestxml"/>
+		<class name="com.mystore.testcases.LoginPageTestxml"/>
+        <class name="com.mystore.testcases.AccountCreationPageTestxml"/>
+        <class name="com.mystore.testcases.SearchResultPageTestxml"/>
+        <class name="com.mystore.testcases.AddToCartPageTestxml"/>
+        <class name="com.mystore.testcases.OrderPageTestxml"/>
+        <class name="com.mystore.testcases.HomepageTestGrouping"/>
+      <class name="com.mystore.testcases.endToEndTestGrouping"/>
+      <class name="com.mystore.testcases.IndexPageTestGrouping"/>
+      <class name="com.mystore.testcases.LoginPageTestGrouping"/>
+      <class name="com.mystore.testcases.AddToCartPageTestGrouping"/>
+      <class name="com.mystore.testcases.OrderPageTestGrouping"/>
+      <class name="com.mystore.testcases.AccountCreationPageGrouping"/>
+      <class name="com.mystore.testcases.SearchResultPageTestGrouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- AllSuite -->
